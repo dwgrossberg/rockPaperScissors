@@ -1,0 +1,105 @@
+.body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: garamond;
+    font-size: 30pt;
+    color: cyan;
+    background-color: black;
+    text-decoration: underline 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .scorecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .scorecard h3,
+  p {
+    margin-bottom: -7px;
+  }
+  
+  .tally {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .tally h5 {
+    text-decoration: underline;
+    font-size: 13pt;
+    margin-bottom: -15px;
+  }
+  
+  #userTally,
+  #computerTally {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .tally p {
+    font-size: 24pt;
+    color: navy;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    background-color: tan;
+    border-radius: 100px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 0px 20px;
+    gap: 50px;;
+  }
+  
+  button {
+    min-width: 80px;
+    padding: 10px;
+    background-color: #CC7722;
+    color: white;
+    border: dotted white 5px;
+  }
+  
+  .winner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  #winRound {
+    font-size: 14pt;
+    font-family: sans-serif;
+    color: teal;
+    margin-top: -10px;
+  }
+  
+  #winGame {
+    color: green;
+    font-size: 36pt;
+    font-weight: 900;
+    padding: 50px;
+    font-family: verdana;
+    margin-top: -10px;
+  }
